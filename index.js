@@ -6,8 +6,6 @@ for (let i = 0; i < numberOfDrumButtons; i++) {
         
         let buttonInnerHTML = this.innerHTML;
 
-        // alert(buttonInnerHTML)
-
         switch (buttonInnerHTML) {
             case 'w':
                 let tom1 = new Audio('sounds/tom-1.mp3');
@@ -51,12 +49,3 @@ for (let i = 0; i < numberOfDrumButtons; i++) {
     });
     
 }
-
-
-
-
-
-/*
-let audio = new Audio('sounds/tom-1.mp3');
-audio.play();
-*/
